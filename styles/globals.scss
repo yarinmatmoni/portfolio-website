@@ -1,5 +1,10 @@
-@import './colors.scss';
+@import "./colors.scss";
+@import "./functions.scss";
 
 body {
-	background-color: $background-color;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+@include desktop {
 }
