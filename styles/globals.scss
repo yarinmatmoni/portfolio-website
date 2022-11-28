@@ -1,9 +1,15 @@
-@import "./colors.scss";
-@import "./functions.scss";
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import './colors.scss';
+@import './functions.scss';
 
 body {
-  background-color: $background-color;
-  color: $text-color;
+	background-color: $background-color;
+	font-family: 'Varela Round', sans-serif;
+	color: $text-color;
+}
+
+h1 {
+	font-weight: 100;
 }
 
 @include desktop {
