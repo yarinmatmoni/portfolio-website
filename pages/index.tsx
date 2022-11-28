@@ -1,14 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Yarin Matmoni - Portfolio</title>
+        <meta name="keywords" content="Yarin Matmoni , portfolio"></meta>
+        <meta name="author" content="Yarin Matmoni"></meta>
       </Head>
-      <h1>Yarin</h1>
     </div>
   )
 }
