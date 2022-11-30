@@ -1,5 +1,6 @@
 @import '../../styles/functions.scss';
 @import '../../styles/colors.scss';
+@import '../../styles/z-index.scss';
 
 .navContainer {
 	padding: 10px 15px;
@@ -7,6 +8,8 @@
 	align-items: center;
 	justify-content: space-between;
 	background-color: $background-menu;
+	box-shadow: 0px 10px 5px -4px $shadow-color;
+	z-index: $navbar-index;
 
 	.menu {
 		background-color: $background-menu;
@@ -16,12 +19,14 @@
 		align-items: center;
 		width: 100vw;
 		left: 0;
-		top: 70px;
+		top: 65px;
 		height: 0;
 		opacity: 0;
 		transition: height 0.5s ease, opacity 0.25s ease;
 		list-style: none;
+		box-shadow: 0px 10px 5px -4px $shadow-color;
 		justify-content: space-evenly;
+		z-index: $navbar-index;
 
 		&[data-open='true'] {
 			height: 250px;
@@ -31,21 +36,39 @@
 		li {
 			padding: 5px;
 			text-transform: uppercase;
+
+			a {
+				font-size: 17px;
+				text-decoration: none;
+				color: $text-color;
+				transition: all 0.5s ease;
+
+				&:hover {
+					color: $primary-color;
+					letter-spacing: 1px;
+				}
+			}
 		}
 	}
 }
 
 @include desktop {
 	.navContainer {
+		padding-inline: 30px;
+
 		.menu {
 			position: initial;
 			flex-direction: row;
 			align-items: center;
-			width: 40vw;
+			width: 450px;
 			left: initial;
 			top: initial;
 			height: initial;
 			opacity: 1;
+			column-gap: 15px;
+			justify-content: center;
+			align-items: center;
+			box-shadow: initial;
 
 			&[data-open='true'] {
 				height: initial;

@@ -12,6 +12,17 @@ body {
 	background-color: $background-color;
 	font-family: 'Varela Round', sans-serif;
 	color: $text-color;
+
+	&.sticky {
+		overflow: hidden;
+
+		#content {
+			pointer-events: none;
+			background-color: $background-unfocused;
+			filter: blur(2px);
+			height: 100vh;
+		}
+	}
 }
 
 h1 {
@@ -19,4 +30,15 @@ h1 {
 }
 
 @include desktop {
+	body {
+		&.sticky {
+			overflow: initial;
+			#content {
+				pointer-events: initial;
+				background-color: initial;
+				filter: initial;
+				height: initial;
+			}
+		}
+	}
 }
