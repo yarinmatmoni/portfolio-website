@@ -29,6 +29,16 @@ h1 {
 	font-weight: 100;
 }
 
+.section {
+	height: 100%;
+	margin: auto;
+	max-width: 1280px;
+	height: calc(100vh - 70px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 @include desktop {
 	body {
 		&.sticky {

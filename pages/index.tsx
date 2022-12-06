@@ -1,4 +1,5 @@
 import Head from "next/head";
+import MainSection from "../components/mainSection/MainSection";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         <meta name="keywords" content="Yarin Matmoni , portfolio"></meta>
         <meta name="author" content="Yarin Matmoni"></meta>
       </Head>
+      <MainSection />
     </div>
   );
 }
