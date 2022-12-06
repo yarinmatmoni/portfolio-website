@@ -10,10 +10,11 @@
 	background-color: $background-menu;
 	box-shadow: 0px 10px 5px -4px $shadow-color;
 	z-index: $navbar-index;
+	position: sticky;
 
 	.menu {
 		background-color: $background-menu;
-		position: fixed;
+		position: absolute;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
