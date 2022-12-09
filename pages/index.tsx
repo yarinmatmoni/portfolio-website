@@ -1,5 +1,6 @@
 import Head from "next/head";
 import MainSection from "../components/mainSection/MainSection";
+import AboutSection from "../components/aboutSection/AboutSection";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <meta name="author" content="Yarin Matmoni"></meta>
       </Head>
       <MainSection />
+      <AboutSection />
     </div>
   );
 }
