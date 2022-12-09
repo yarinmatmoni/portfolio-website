@@ -10,3 +10,66 @@ export const iconsMainSection = [
 
 export const aboutMe =
 	'My name is Yarin Matmoni, I am 27 years old from Rishon Lezion. Computer Science B.Sc and specialization in Full Stack. During the degree I learned many technologies and I took additional courses privately in order to learn the latest technologies. Recently I have been building websites for private clients at their request using new technologies that are relevant to the job market.';
+
+export const skills = [
+	{
+		name: 'HTML',
+		src: '/icons/html_icon.svg',
+		alt: 'HTML icon',
+		color: '#e44d26',
+	},
+	{
+		name: 'CSS',
+		src: '/icons/css_icon.svg',
+		alt: 'CSS icon',
+		color: '#1572b6',
+	},
+	{
+		name: 'JavaScript',
+		src: '/icons/javascript_icon.svg',
+		alt: 'JavaScript icon',
+		color: '#f7df1e',
+	},
+	{
+		name: 'React',
+		src: '/icons/react_icon.svg',
+		alt: 'React icon',
+		color: '#61dafb',
+	},
+	{
+		name: 'Next.JS',
+		src: '/icons/next_icon.svg',
+		alt: 'Next.JS icon',
+		color: '#000000',
+	},
+	{
+		name: 'TypeScript',
+		src: '/icons/typescript_icon.svg',
+		alt: 'TypeScript icon',
+		color: '#007acc',
+	},
+	{
+		name: 'Node.JS',
+		src: '/icons/node_icon.svg',
+		alt: 'Node.JS icon',
+		color: '#83cd29',
+	},
+	{
+		name: 'MongoDB',
+		src: '/icons/mongodb_icon.svg',
+		alt: 'MongoDB icon',
+		color: '#439934',
+	},
+	{
+		name: 'Java',
+		src: '/icons/java_icon.svg',
+		alt: 'Java icon',
+		color: '#4e7d9d',
+	},
+	{
+		name: 'ASP.NET',
+		src: '/icons/dotNet_icon.svg',
+		alt: 'ASP.NET icon',
+		color: '#156cb1',
+	},
+];

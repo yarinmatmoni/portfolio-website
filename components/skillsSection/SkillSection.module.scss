@@ -1,0 +1,26 @@
+@import '../../styles/colors.scss';
+
+.skillsSectionContainer {
+	max-width: 85%;
+
+	h2 {
+		color: $text-subtitle-color;
+		font-weight: 100;
+		font-size: 22px;
+	}
+
+	.subtitle {
+		color: $primary-color;
+		font-weight: 500;
+		font-size: 48px;
+		margin: 5px 0 30px 0;
+	}
+
+	.skillsContainer {
+		flex-wrap: wrap;
+		display: flex;
+		row-gap: 30px;
+		column-gap: 25px;
+		justify-content: center;
+	}
+}
