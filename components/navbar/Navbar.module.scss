@@ -11,6 +11,7 @@
 	box-shadow: 0px 10px 5px -4px $shadow-color;
 	z-index: $navbar-index;
 	position: sticky;
+	top: 0;
 
 	.menu {
 		background-color: $background-menu;
