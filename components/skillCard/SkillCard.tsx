@@ -4,7 +4,7 @@ import style from './SkillCard.module.scss';
 
 function SkillCard({ name, src, alt, color }: { name: string, src: string, alt: string, color: string }) {
     return (
-        <div className={style.cardContainer} style={{ boxShadow: `0px 5px 5px 2px ${color}70` }}>
+        <div className={style.cardContainer} style={{ boxShadow: `0px 5px 5px 2px ${color}40` }}>
             <p>{name}</p>
             <Image src={src} height="80" width="80" alt={alt}></Image>
         </div>
