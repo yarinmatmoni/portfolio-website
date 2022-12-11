@@ -73,3 +73,24 @@ export const skills = [
 		color: '#156cb1',
 	},
 ];
+
+export const projects = [
+	{
+		name: 'Music Player',
+		src: '/images/musicPlayer.png',
+		alt: 'Music Player - Project',
+		skills: ['React'],
+	},
+	{
+		name: 'Music Player',
+		src: '/images/musicPlayer.png',
+		alt: 'Music Player - Project',
+		skills: ['React'],
+	},
+	{
+		name: 'Music Player',
+		src: '/images/musicPlayer.png',
+		alt: 'Music Player - Project',
+		skills: ['React'],
+	},
+];

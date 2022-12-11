@@ -2,6 +2,7 @@ import Head from "next/head";
 import MainSection from "../components/mainSection/MainSection";
 import AboutSection from "../components/aboutSection/AboutSection";
 import SkillsSection from "../components/skillsSection/SkillsSection";
+import ProjectsSection from "../components/projectsSection/ProjectsSection";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <MainSection />
       <AboutSection />
       <SkillsSection />
+      <ProjectsSection />
     </div>
   );
 }
