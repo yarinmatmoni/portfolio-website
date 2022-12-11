@@ -93,7 +93,7 @@ export const projects = [
 		name: 'Parental Guidance',
 		src: '/images/parentalGuidance.png',
 		alt: 'Parental Guidance - Project',
-		skills: ['Next.js'],
+		skills: ['Next.js', 'TypeScript'],
 		href: '/',
 	},
 	{
