@@ -111,3 +111,6 @@ export const projects = [
 		href: '/',
 	},
 ];
+
+export const contact =
+	"I am available for full time position. Contact me and let's talk";

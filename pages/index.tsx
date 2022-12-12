@@ -3,6 +3,7 @@ import MainSection from "../components/mainSection/MainSection";
 import AboutSection from "../components/aboutSection/AboutSection";
 import SkillsSection from "../components/skillsSection/SkillsSection";
 import ProjectsSection from "../components/projectsSection/ProjectsSection";
+import ContactSection from "../components/contactSection/ContactSection";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
+      <ContactSection />
     </div>
   );
 }
