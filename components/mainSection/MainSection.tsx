@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { mainSection, iconsMainSection } from '../../utils/content/index';
 import style from './MainSection.module.scss';
 
+//TODO: Click on icon - do function
+
 function MainSection() {
     return (
         <div className='section'>
@@ -17,7 +19,7 @@ function MainSection() {
                     <div className={style.icons}>
                         {iconsMainSection.map((icon, index) => (
                             <div key={`${index}_${icon.alt}`} className={style.roundContainer}>
-                                <Image src={icon.src} alt={icon.alt} height="32" width="32"></Image>
+                                <Image src={icon.src} alt={icon.alt} height="30" width="30"></Image>
                             </div>
                         ))}
                     </div>

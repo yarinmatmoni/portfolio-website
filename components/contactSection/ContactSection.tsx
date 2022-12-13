@@ -4,6 +4,8 @@ import { contact } from '../../utils/content/index';
 import { contactForm } from '../../utils/content/common';
 import style from './ContactSection.module.scss';
 
+//TODO: Send email - email.js
+
 function ContactSection() {
     return (
         <div className="section">
