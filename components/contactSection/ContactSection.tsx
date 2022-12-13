@@ -4,11 +4,11 @@ import { contact } from '../../utils/content/index';
 import { contactForm } from '../../utils/content/common';
 import style from './ContactSection.module.scss';
 
-//TODO: Send email - email.js
+//TODO: Send email - email.js + whatsapp + call
 
 function ContactSection() {
     return (
-        <div className="section">
+        <div className="section" id="contact">
             <div className={style.container}>
                 <h2>Contact</h2>
                 <p className={style.subtitle}>Get in touch</p>

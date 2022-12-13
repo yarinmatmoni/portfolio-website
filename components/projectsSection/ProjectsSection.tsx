@@ -5,7 +5,7 @@ import style from './ProjectsSection.module.scss';
 
 function ProjectsSection() {
     return (
-        <div className='section'>
+        <div className='section' id="projects">
             <div className={style.container}>
                 <h2>Projects</h2>
                 <p className={style.subtitle}>What I have built</p>

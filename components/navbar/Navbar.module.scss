@@ -14,6 +14,7 @@
 	top: 0;
 	position: fixed;
 	width: 100%;
+	transition: all 0.3s ease;
 
 	.menu {
 		background-color: $background-menu;
@@ -68,6 +69,11 @@
 	.navContainer {
 		padding-inline: 125px;
 
+		&[data-scrollY='false'] {
+			background-color: transparent;
+			box-shadow: none;
+		}
+
 		.menu {
 			position: initial;
 			flex-direction: row;
@@ -81,6 +87,7 @@
 			justify-content: center;
 			align-items: center;
 			box-shadow: initial;
+			background-color: initial;
 
 			&[data-open='true'] {
 				height: initial;
