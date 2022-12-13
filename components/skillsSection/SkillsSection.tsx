@@ -5,7 +5,7 @@ import style from './SkillSection.module.scss';
 
 function SkillsSection() {
     return (
-        <div className="section">
+        <div className="section" id="skills">
             <div className={style.skillsSectionContainer}>
                 <h2>Skills</h2>
                 <p className={style.subtitle}>What Can I Do</p>

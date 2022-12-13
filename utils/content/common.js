@@ -1,4 +1,10 @@
-export const nav = ['Home', 'About', 'Skills', 'Products', 'Contact'];
+export const nav = [
+	{ name: 'Home', href: '/' },
+	{ name: 'About', href: '/#about' },
+	{ name: 'Skills', href: '/#skills' },
+	{ name: 'Products', href: '/#projects' },
+	{ name: 'Contact', href: '/#contact' },
+];
 
 export const contactForm = [
 	{
