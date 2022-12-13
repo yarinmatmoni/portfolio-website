@@ -1,4 +1,5 @@
 @import '../../styles/colors.scss';
+@import '../../styles/functions.scss';
 
 .container {
 	width: 85%;
@@ -19,11 +20,14 @@
 	.contactContainer {
 		display: flex;
 		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 50px;
 
 		.info {
 			background-color: $background-color;
 			box-shadow: 0px 0px 10px 5px rgba($shadow-color, 0.1);
-			width: 450px;
+			width: 350px;
 			border-radius: 10px;
 			padding: 16px;
 			display: flex;
@@ -51,6 +55,75 @@
 						transform: translateY(-5px);
 					}
 				}
+			}
+		}
+
+		.mail {
+			background-color: $background-color;
+			box-shadow: 0px 0px 10px 5px rgba($shadow-color, 0.1);
+			border-radius: 10px;
+			padding: 16px 32px;
+			width: 350px;
+
+			.formItem {
+				display: flex;
+				flex-direction: column;
+				gap: 5px;
+				margin: 15px 0;
+
+				label {
+					color: $text-subtitle-color;
+				}
+
+				input,
+				textarea {
+					padding: 6px;
+					border-radius: 6px;
+					border: 0.5px solid $text-subtitle-color;
+					outline: none;
+					font-size: 16px;
+				}
+
+				textarea {
+					resize: none;
+					height: 60px;
+				}
+			}
+
+			button {
+				font-size: 18px;
+				background-color: $primary-color;
+				color: whitesmoke;
+				border: none;
+				margin: auto;
+				display: flex;
+				padding: 10px 15px;
+				border-radius: 50px;
+				cursor: pointer;
+				align-items: center;
+
+				&:after {
+					content: '\27A4';
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+}
+
+@include desktop {
+	.container {
+		.contactContainer {
+			flex-direction: initial;
+			justify-content: space-around;
+
+			.info,
+			.mail {
+				width: 450px;
+			}
+
+			.mail button {
+				font-size: 20px;
 			}
 		}
 	}

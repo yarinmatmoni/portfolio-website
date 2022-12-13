@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { contact } from '../../utils/content/index';
+import { contactForm } from '../../utils/content/common';
 import style from './ContactSection.module.scss';
 
 function ContactSection() {
@@ -18,7 +19,21 @@ function ContactSection() {
                             <Image src='/icons/whatsapp_icon.svg' height='35' width='35' alt='Whatsapp'></Image>
                         </div>
                     </div>
-                    <div className={style.mail}></div>
+                    <div className={style.mail}>
+                        <form>
+                            {contactForm.map((item) => (
+                                <div key={item.name} className={style.formItem}>
+                                    <label>{item.title}</label>
+                                    <input type={item.type}></input>
+                                </div>
+                            ))}
+                            <div className={style.formItem}>
+                                <label>Message</label>
+                                <textarea></textarea>
+                            </div>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div >
