@@ -69,7 +69,7 @@
 	.navContainer {
 		padding-inline: 125px;
 
-		&[data-scrollY='false'] {
+		&[data-scroll='false'] {
 			background-color: transparent;
 			box-shadow: none;
 		}

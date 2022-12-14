@@ -26,12 +26,12 @@ function ContactSection() {
                             {contactForm.map((item) => (
                                 <div key={item.name} className={style.formItem}>
                                     <label>{item.title}</label>
-                                    <input type={item.type}></input>
+                                    <input type={item.type} required></input>
                                 </div>
                             ))}
                             <div className={style.formItem}>
                                 <label>Message</label>
-                                <textarea></textarea>
+                                <textarea required></textarea>
                             </div>
                             <button type="submit">Send Message</button>
                         </form>

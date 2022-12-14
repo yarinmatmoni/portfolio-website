@@ -33,7 +33,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={styles.navContainer} data-scrollY={scrollY}>
+    <nav className={styles.navContainer} data-scroll={scrollY}>
       <Image src='/icons/developer_icon.svg' alt='developer icon' height='50' width='50'></Image>
       <ul className={styles.menu} data-open={isOpen}>
         {nav.map((menuItem, index) => (
