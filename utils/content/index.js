@@ -17,7 +17,7 @@ export const iconsMainSection = [
 		alt: 'Email',
 		href: 'https://mail.google.com/mail/?view=cm&fs=1&to=yarinmatmoni@gmail.com',
 	},
-	{ src: '/icons/cv_icon.svg', alt: 'CV' },
+	// { src: '/icons/cv_icon.svg', alt: 'CV', file: './yourfile.pdf' },
 ];
 
 export const aboutMe =
