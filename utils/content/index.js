@@ -2,9 +2,21 @@ export const mainSection =
 	'Highly motivated Computer Science B.Sc., Full Stack Developer, looking for my next challenge. Eager to learn tech-related subjects, especially Web Development. Ability to work independently and team work.';
 
 export const iconsMainSection = [
-	{ src: '/icons/linkedin_icon.svg', alt: 'Linkedin' },
-	{ src: '/icons/github_icon.svg', alt: 'Github' },
-	{ src: '/icons/mail_icon.svg', alt: 'Email' },
+	{
+		src: '/icons/linkedin_icon.svg',
+		alt: 'Linkedin',
+		href: 'https://www.linkedin.com/in/yarin-matmoni/',
+	},
+	{
+		src: '/icons/github_icon.svg',
+		alt: 'Github',
+		href: 'https://github.com/yarinmatmoni',
+	},
+	{
+		src: '/icons/mail_icon.svg',
+		alt: 'Email',
+		href: 'https://mail.google.com/mail/?view=cm&fs=1&to=yarinmatmoni@gmail.com',
+	},
 	{ src: '/icons/cv_icon.svg', alt: 'CV' },
 ];
 
