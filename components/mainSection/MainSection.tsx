@@ -3,8 +3,6 @@ import Image from 'next/image';
 import { mainSection, iconsMainSection } from '../../utils/content/index';
 import style from './MainSection.module.scss';
 
-//TODO: Click on icon - do function
-
 function MainSection() {
     return (
         <div className='section'>
@@ -19,9 +17,16 @@ function MainSection() {
                     <div className={style.icons}>
                         {iconsMainSection.map((icon, index) => (
                             <div key={`${index}_${icon.alt}`} className={style.roundContainer}>
-                                <Image src={icon.src} alt={icon.alt} height="30" width="30"></Image>
+                                <a href={icon.href} target='_blank' rel="noreferrer">
+                                    <Image src={icon.src} alt={icon.alt} height="30" width="30"></Image>
+                                </a>
                             </div>
                         ))}
+                        <div className={style.roundContainer}>
+                            <a href="./files/Yarin_Matmoni_CV.pdf" download>
+                                <Image src={'/icons/cv_icon.svg'} alt='Yarin_Matmoni_CV' height="30" width="30"></Image>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
