@@ -1,26 +1,41 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import Image from 'next/image';
 import { contact } from '../../utils/content/index';
 import { contactForm } from '../../utils/content/common';
 import emailjs from '@emailjs/browser';
 import style from './ContactSection.module.scss';
 
-//TODO: Email validation + show when the mail sent + whatsapp + call
+//TODO: whatsapp + call
 
 function ContactSection() {
     const form: any = useRef();
+    const [isSent, setIsSent] = useState(false);
 
     const handleOnSubmit = (event: any) => {
         event.preventDefault();
+        let valid = true;
 
+        Array.from(form.current).map((input: any) => {
+            if (!input.name)
+                return;
+            if (!input.value) {
+                valid = false;
+                return;
+            }
 
-        emailjs.sendForm(`${process.env.NEXT_PUBLIC_SERVICE_ID}`, `${process.env.NEXT_PUBLIC_TEMPLATE_ID}`, form.current, `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`)
-            .then((result) => {
-                console.log(result.text);
-                event.target.reset();
-            }, (error) => {
-                console.log(error.text);
-            });
+        })
+
+        if (valid && !isSent) {
+            emailjs.sendForm(`${process.env.NEXT_PUBLIC_SERVICE_ID}`, `${process.env.NEXT_PUBLIC_TEMPLATE_ID}`, form.current, `${process.env.NEXT_PUBLIC_PUBLIC_KEY}`)
+                .then((result) => {
+                    console.log(result.text);
+                    setIsSent(true);
+                    event.target.reset();
+                }, (error) => {
+                    console.log(error.text);
+                });
+        }
+
     }
 
     return (
@@ -49,7 +64,7 @@ function ContactSection() {
                                 <label>Message</label>
                                 <textarea name='message' required></textarea>
                             </div>
-                            <button type="submit">Send Message</button>
+                            <button type="submit" data-sent={isSent}>Send Message</button>
                         </form>
                     </div>
                 </div>
