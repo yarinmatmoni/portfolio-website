@@ -2,10 +2,9 @@ import React, { useRef, useState } from 'react';
 import Image from 'next/image';
 import { contact } from '../../utils/content/index';
 import { contactForm } from '../../utils/content/common';
+import { phoneCallHref, whatsAppHref } from '../../utils/content/hrefs';
 import emailjs from '@emailjs/browser';
 import style from './ContactSection.module.scss';
-
-//TODO: whatsapp + call
 
 function ContactSection() {
     const form: any = useRef();
@@ -48,8 +47,12 @@ function ContactSection() {
                         <Image src='/svg/contact_svg.svg' height='350' width='350' alt='Contact'></Image>
                         <p>{contact}</p>
                         <div className={style.icons}>
-                            <Image src='/icons/phone_icon.svg' height='35' width='35' alt='Phone'></Image>
-                            <Image src='/icons/whatsapp_icon.svg' height='35' width='35' alt='Whatsapp'></Image>
+                            <a href={phoneCallHref}>
+                                <Image src='/icons/phone_icon.svg' height='35' width='35' alt='Phone'></Image>
+                            </a>
+                            <a href={whatsAppHref} target='_blank' rel="noreferrer">
+                                <Image src='/icons/whatsapp_icon.svg' height='35' width='35' alt='Whatsapp'></Image>
+                            </a>
                         </div>
                     </div>
                     <div className={style.mail}>

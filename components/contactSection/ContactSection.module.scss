@@ -111,6 +111,7 @@
 				&[data-sent='true'] {
 					background-color: $success-color;
 					font-size: 0;
+					pointer-events: none;
 
 					&::after {
 						content: '\2713';
