@@ -87,39 +87,44 @@ export const skills = [
 
 export const projects = [
 	{
+		id: '1',
 		name: 'Music Player',
 		src: '/images/musicPlayer.png',
 		alt: 'Music Player - Project',
 		skills: ['React.js'],
-		href: '/',
+		href: '/Projects/1',
 	},
 	{
+		id: '2',
 		name: 'Capture Portfolio',
 		src: '/images/capturePortfolio.png',
 		alt: 'Capture Portfolio - Project',
 		skills: ['React.js'],
-		href: '/',
+		href: '/Projects/2',
 	},
 	{
+		id: '3',
 		name: 'Parental Guidance',
 		src: '/images/parentalGuidance.png',
 		alt: 'Parental Guidance - Project',
 		skills: ['Next.js', 'TypeScript'],
-		href: '/',
+		href: '/Projects/3',
 	},
 	{
+		id: '4',
 		name: 'Weather App',
 		src: '/images/weatherApp.png',
 		alt: 'Weather App - Project',
 		skills: ['React.js'],
-		href: '/',
+		href: '/Projects/4',
 	},
 	{
+		id: '5',
 		name: 'Colors',
 		src: '/images/colors.png',
 		alt: 'Colors - Project',
 		skills: ['Html', 'Css', 'JavaScript'],
-		href: '/',
+		href: '/Projects/5',
 	},
 ];
 
