@@ -93,6 +93,7 @@ export const projects = [
 		alt: 'Music Player - Project',
 		skills: ['React.js'],
 		href: '/Projects/1',
+		backgroundImage: '/images/musicPlayer.png',
 	},
 	{
 		id: '2',
@@ -101,6 +102,7 @@ export const projects = [
 		alt: 'Capture Portfolio - Project',
 		skills: ['React.js'],
 		href: '/Projects/2',
+		backgroundImage: '/images/capturePortfolio.png',
 	},
 	{
 		id: '3',
@@ -109,6 +111,7 @@ export const projects = [
 		alt: 'Parental Guidance - Project',
 		skills: ['Next.js', 'TypeScript'],
 		href: '/Projects/3',
+		backgroundImage: '/images/parentalGuidance.png',
 	},
 	{
 		id: '4',
@@ -117,6 +120,7 @@ export const projects = [
 		alt: 'Weather App - Project',
 		skills: ['React.js'],
 		href: '/Projects/4',
+		backgroundImage: '/images/weatherApp.png',
 	},
 	{
 		id: '5',
@@ -125,6 +129,7 @@ export const projects = [
 		alt: 'Colors - Project',
 		skills: ['Html', 'Css', 'JavaScript'],
 		href: '/Projects/5',
+		backgroundImage: '/images/colors.png',
 	},
 ];
 

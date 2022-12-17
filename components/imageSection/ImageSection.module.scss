@@ -1,0 +1,59 @@
+@import '../../styles/functions.scss';
+@import '../../styles/colors.scss';
+
+.imageContainer {
+	height: 50vh;
+	position: relative;
+	width: 100%;
+	top: 70px;
+
+	img {
+		object-fit: cover;
+		object-position: 30% 50%;
+	}
+
+	.infoContainer {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		color: whitesmoke;
+		background-color: rgba(#000000, 0.8);
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: flex-end;
+
+		.info {
+			width: 100%;
+			padding: 0 50px 50px 50px;
+
+			h1 {
+				font-size: 45px;
+				color: white;
+			}
+
+			.skills {
+				flex-direction: row;
+				width: 100%;
+				display: flex;
+				gap: 10px;
+
+				p {
+					margin-top: 30px;
+					font-size: 18px;
+					background-color: $primary-color;
+					color: whitesmoke;
+					width: fit-content;
+					padding: 8px;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+}
+
+@include desktop {
+	.infoContainer > .info {
+		max-width: 1280px;
+	}
+}
