@@ -14,6 +14,8 @@ type ProjectType = {
         skills: string[],
         href: string,
         backgroundImage: string,
+        overView: string,
+        technologies: string[],
     }
 }
 
@@ -47,7 +49,7 @@ function Project({ project }: ProjectType) {
                 <meta name="author" content="Yarin Matmoni"></meta>
             </Head>
             <ImageSection src={project.backgroundImage} name={project.name} skills={project.skills}></ImageSection>
-            <OverviewSection></OverviewSection>
+            <OverviewSection overview={project.overView} technologies={project.technologies}></OverviewSection>
         </div>
     )
 }

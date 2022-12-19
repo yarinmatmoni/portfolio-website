@@ -94,6 +94,9 @@ export const projects = [
 		skills: ['React.js'],
 		href: '/Projects/1',
 		backgroundImage: '/images/musicPlayer.png',
+		overView:
+			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
+		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
 	},
 	{
 		id: '2',
@@ -103,6 +106,9 @@ export const projects = [
 		skills: ['React.js'],
 		href: '/Projects/2',
 		backgroundImage: '/images/capturePortfolio.png',
+		overView:
+			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
+		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
 	},
 	{
 		id: '3',
@@ -112,6 +118,9 @@ export const projects = [
 		skills: ['Next.js', 'TypeScript'],
 		href: '/Projects/3',
 		backgroundImage: '/images/parentalGuidance.png',
+		overView:
+			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
+		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
 	},
 	{
 		id: '4',
@@ -121,6 +130,9 @@ export const projects = [
 		skills: ['React.js'],
 		href: '/Projects/4',
 		backgroundImage: '/images/weatherApp.png',
+		overView:
+			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
+		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
 	},
 	{
 		id: '5',
@@ -130,6 +142,9 @@ export const projects = [
 		skills: ['Html', 'Css', 'JavaScript'],
 		href: '/Projects/5',
 		backgroundImage: '/images/colors.png',
+		overView:
+			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
+		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
 	},
 ];
 
