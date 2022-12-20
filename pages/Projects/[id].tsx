@@ -3,21 +3,7 @@ import Head from 'next/head';
 import ImageSection from '../../components/imageSection/ImageSection';
 import OverviewSection from '../../components/overviewSection/OverviewSection';
 import { projects } from '../../utils/content/index';
-// import style from '../../styles/Project.module.scss';
-
-type ProjectType = {
-    project: {
-        id: string,
-        name: string,
-        src: string,
-        alt: string,
-        skills: string[],
-        href: string,
-        backgroundImage: string,
-        overView: string,
-        technologies: string[],
-    }
-}
+import type { ProjectType } from '../../utils/types/types';
 
 export const getStaticPaths = async () => {
     const paths = projects.map((project) => {
