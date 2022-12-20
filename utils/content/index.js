@@ -88,39 +88,39 @@ export const skills = [
 export const projects = [
 	{
 		id: '1',
-		name: 'Music Player',
-		src: '/images/musicPlayer.png',
-		alt: 'Music Player - Project',
-		skills: ['React.js'],
-		href: '/Projects/1',
-		backgroundImage: '/images/musicPlayer.png',
-		overView:
-			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
-		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
-	},
-	{
-		id: '2',
-		name: 'Capture Portfolio',
-		src: '/images/capturePortfolio.png',
-		alt: 'Capture Portfolio - Project',
-		skills: ['React.js'],
-		href: '/Projects/2',
-		backgroundImage: '/images/capturePortfolio.png',
-		overView:
-			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
-		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
-	},
-	{
-		id: '3',
 		name: 'Parental Guidance',
 		src: '/images/parentalGuidance.png',
 		alt: 'Parental Guidance - Project',
 		skills: ['Next.js', 'TypeScript'],
-		href: '/Projects/3',
+		href: '/Projects/1',
 		backgroundImage: '/images/parentalGuidance.png',
 		overView:
-			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
-		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
+			'Parental Guidance is a website built for Shalhevet Barak. Shalhevet advises, trains families and helps them acquire tools and set goals that will help them deal with the challenges they face on a daily basis. Through the site you can contact Shalhevet in several ways: WhatsApp, email, call and Facebook. The site can also be used on a mobile device.',
+		technologies: ['Next.js', 'Framer Motion', 'Sass', 'TypeScript', 'EmailJS'],
+	},
+	{
+		id: '2',
+		name: 'Music Player',
+		src: '/images/musicPlayer.png',
+		alt: 'Music Player - Project',
+		skills: ['React.js'],
+		href: '/Projects/2',
+		backgroundImage: '/images/musicPlayer.png',
+		overView:
+			'The music player is a website that allows the user to select a song from a list of 11 songs. The user can move between the songs easily using the arrows or by selecting a song from the song library. In addition, the user can reach the point he chooses during the song that is playing by dragging or clicking on the timer. The website can also be used on a mobile device.',
+		technologies: ['React.js', 'Sass'],
+	},
+	{
+		id: '3',
+		name: 'Capture Portfolio',
+		src: '/images/capturePortfolio.png',
+		alt: 'Capture Portfolio - Project',
+		skills: ['React.js'],
+		href: '/Projects/3',
+		backgroundImage: '/images/capturePortfolio.png',
+		overView:
+			"A website that presents a portfolio of a company that provides photography services. The user can see the company's work, questions and answers and what services it provides. The site can also be used on a mobile device.",
+		technologies: ['React.js', 'Framer Motion', 'Style-Component'],
 	},
 	{
 		id: '4',
@@ -131,8 +131,8 @@ export const projects = [
 		href: '/Projects/4',
 		backgroundImage: '/images/weatherApp.png',
 		overView:
-			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
-		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
+			'Using the weather app, the user can type in a location and get the current weather forecast, a forecast for the next five hours, and a daily forecast that includes temperature range, sunset, sunrise, etc. The information is received by API.',
+		technologies: ['React.js', 'Framer Motion', 'Style-Component', 'Api'],
 	},
 	{
 		id: '5',
@@ -143,8 +143,8 @@ export const projects = [
 		href: '/Projects/5',
 		backgroundImage: '/images/colors.png',
 		overView:
-			'text text text text text text text text text text text text  text text text text text text text text text text text text text text text text text text text text text text text text text',
-		technologies: ['React.js', 'FrameMotion', 'React.js', 'FrameMotion'],
+			'The Colors website allows the user to choose a color palette. The user can change the hue, brightness and saturation for each color. Additionally, the user can save a color palette by using local storage.',
+		technologies: ['Html', 'Css', 'JavaScript', 'Local Storage'],
 	},
 ];
 
