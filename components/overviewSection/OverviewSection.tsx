@@ -20,6 +20,7 @@ function OverviewSection({ overview, technologies }: { overview: string, technol
                         {technologies.map((t, index) => <li key={index}>{t}</li>)}
                     </ul>
                 </div>
+                <Link className={style.backLink} href='/#projects'>Back</Link>
             </div>
         </div>
     )

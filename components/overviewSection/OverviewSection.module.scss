@@ -33,6 +33,16 @@
 		line-height: 25px;
 	}
 
+	.backLink {
+		color: whitesmoke;
+		text-decoration: none;
+		background-color: $background-gray-button;
+		font-size: 18px;
+		text-align: center;
+		padding: 8px 4px;
+		border-radius: 6px;
+	}
+
 	.overview {
 		.options {
 			display: flex;
@@ -45,6 +55,7 @@
 				border-radius: 6px;
 				text-decoration: none;
 				color: whitesmoke;
+				font-size: 20px;
 			}
 		}
 	}
@@ -77,6 +88,18 @@
 					color: $primary-color-opacity;
 				}
 			}
+		}
+	}
+}
+
+@include desktop {
+	.overviewContainer {
+		p {
+			max-width: 80%;
+		}
+
+		.backLink {
+			width: 10%;
 		}
 	}
 }
