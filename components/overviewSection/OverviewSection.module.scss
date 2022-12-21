@@ -1,0 +1,115 @@
+@import '../../styles/functions.scss';
+@import '../../styles/colors.scss';
+
+.overviewContainer {
+	padding: 0 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	margin-top: 70px;
+
+	h2 {
+		position: relative;
+		font-size: 28px;
+		font-weight: 100;
+		width: fit-content;
+		margin: 25px 0;
+
+		&::after {
+			display: block;
+			content: '';
+			width: 70%;
+			height: 1px;
+			padding: 1.5px;
+			background: $primary-color;
+			position: absolute;
+			bottom: -8px;
+			left: 0;
+			border-radius: 8px;
+		}
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.backLink {
+		color: whitesmoke;
+		text-decoration: none;
+		background-color: $background-gray-button;
+		font-size: 18px;
+		text-align: center;
+		padding: 8px 4px;
+		border-radius: 6px;
+		margin-bottom: 20px;
+	}
+
+	.overview {
+		.options {
+			display: flex;
+			gap: 15px;
+			margin-top: 25px;
+
+			a {
+				padding: 10px;
+				background-color: $primary-color-light;
+				border-radius: 6px;
+				text-decoration: none;
+				color: whitesmoke;
+				font-size: 20px;
+
+				&[data-href-code=''] {
+					display: none;
+				}
+
+				&[data-href-demo=''] {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.technologies {
+		.listOfTechnologies {
+			padding-top: 10px;
+			display: flex;
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+			column-gap: 25px;
+			row-gap: 20px;
+
+			li {
+				font-size: 18px;
+				display: flex;
+				position: relative;
+				padding: 0 10px;
+
+				&::before {
+					content: '\26AC';
+					margin-right: 6px;
+					font-size: 28px;
+					font-weight: bold;
+					position: absolute;
+					display: block;
+					top: -11px;
+					left: -10px;
+					color: $primary-color-light;
+				}
+			}
+		}
+	}
+}
+
+@include desktop {
+	.overviewContainer {
+		p {
+			max-width: 80%;
+		}
+
+		.backLink {
+			width: 10%;
+		}
+	}
+}
