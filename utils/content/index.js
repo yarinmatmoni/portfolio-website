@@ -143,7 +143,7 @@ export const projects = [
 		skills: ['React.js'],
 		href: '/Projects/4',
 		hrefCode: 'https://github.com/yarinmatmoni/capturePortfilio',
-		hrefDemo: 'https://yarinmatmoni.github.io/capturePortfilio/',
+		hrefDemo: 'https://yarinmatmoni.github.io/capturePortfilio/#/',
 		backgroundImage: '/images/capturePortfolio.png',
 		overView:
 			"A website that presents a portfolio of a company that provides photography services. The user can see the company's work, questions and answers and what services it provides. The site can also be used on a mobile device.",
