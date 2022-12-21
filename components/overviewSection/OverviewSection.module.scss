@@ -58,6 +58,14 @@
 				text-decoration: none;
 				color: whitesmoke;
 				font-size: 20px;
+
+				&[data-href-code=''] {
+					display: none;
+				}
+
+				&[data-href-demo=''] {
+					display: none;
+				}
 			}
 		}
 	}

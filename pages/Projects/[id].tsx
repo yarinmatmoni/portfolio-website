@@ -35,7 +35,7 @@ function Project({ project }: ProjectType) {
                 <meta name="author" content="Yarin Matmoni"></meta>
             </Head>
             <ImageSection src={project.backgroundImage} name={project.name} skills={project.skills}></ImageSection>
-            <OverviewSection overview={project.overView} technologies={project.technologies}></OverviewSection>
+            <OverviewSection overview={project.overView} hrefCode={project.hrefCode} hrefDemo={project.hrefDemo} technologies={project.technologies}></OverviewSection>
         </div>
     )
 }

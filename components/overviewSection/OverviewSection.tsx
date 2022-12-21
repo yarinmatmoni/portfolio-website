@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import style from './OverviewSection.module.scss';
 
-function OverviewSection({ overview, technologies }: { overview: string, technologies: string[] }) {
+function OverviewSection({ overview, technologies, hrefCode, hrefDemo }: { overview: string, technologies: string[], hrefCode: string, hrefDemo: string }) {
     return (
         <div className="section">
             <div className={style.overviewContainer}>
@@ -10,8 +10,8 @@ function OverviewSection({ overview, technologies }: { overview: string, technol
                     <h2>Overview</h2>
                     <p>{overview}</p>
                     <div className={style.options}>
-                        <Link href='/'>Code</Link>
-                        <Link href='/'>Demo</Link>
+                        <Link href={hrefCode} target='_blank' rel="noreferrer" data-href-code={hrefCode}>Code</Link>
+                        <Link href={hrefDemo} target='_blank' rel="noreferrer" data-href-demo={hrefDemo}>Demo</Link>
                     </div>
                 </div>
                 <div className={style.technologies}>
@@ -22,7 +22,7 @@ function OverviewSection({ overview, technologies }: { overview: string, technol
                 </div>
                 <Link className={style.backLink} href='/#projects'>Back</Link>
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -93,6 +93,8 @@ export const projects = [
 		alt: 'Parental Guidance - Project',
 		skills: ['Next.js', 'TypeScript'],
 		href: '/Projects/1',
+		hrefCode: 'https://github.com/yarinmatmoni/parental-guidance',
+		hrefDemo: '',
 		backgroundImage: '/images/parentalGuidance.png',
 		overView:
 			'Parental Guidance is a website built for Shalhevet Barak. Shalhevet advises, trains families and helps them acquire tools and set goals that will help them deal with the challenges they face on a daily basis. Through the site you can contact Shalhevet in several ways: WhatsApp, email, call and Facebook. The site can also be used on a mobile device.',
@@ -105,6 +107,8 @@ export const projects = [
 		alt: 'PerfectFit - Project',
 		skills: ['React.js', 'Node.js', 'MongoDB'],
 		href: '/Projects/2',
+		hrefCode: '',
+		hrefDemo: '',
 		backgroundImage: '/images/perfectFit.png',
 		overView:
 			'PerfectFit is a dashboard website for a fashion app that allows the manager to get many statistics about his app, for example: who are the top users, connected profiles, the total number of profiles in the app and more. Additionally, the manager can see a change in trends compared to last week. The administrator has control over the categories and subcategories that appear in the application and can add, delete or edit any of them.',
@@ -124,6 +128,8 @@ export const projects = [
 		alt: 'Music Player - Project',
 		skills: ['React.js'],
 		href: '/Projects/3',
+		hrefCode: 'https://github.com/yarinmatmoni/musicPlayer',
+		hrefDemo: 'https://yarinmatmoni.github.io/musicPlayer/',
 		backgroundImage: '/images/musicPlayer.png',
 		overView:
 			'The music player is a website that allows the user to select a song from a list of 11 songs. The user can move between the songs easily using the arrows or by selecting a song from the song library. In addition, the user can reach the point he chooses during the song that is playing by dragging or clicking on the timer. The website can also be used on a mobile device.',
@@ -136,6 +142,8 @@ export const projects = [
 		alt: 'Capture Portfolio - Project',
 		skills: ['React.js'],
 		href: '/Projects/4',
+		hrefCode: 'https://github.com/yarinmatmoni/capturePortfilio',
+		hrefDemo: 'https://yarinmatmoni.github.io/capturePortfilio/',
 		backgroundImage: '/images/capturePortfolio.png',
 		overView:
 			"A website that presents a portfolio of a company that provides photography services. The user can see the company's work, questions and answers and what services it provides. The site can also be used on a mobile device.",
@@ -148,6 +156,8 @@ export const projects = [
 		alt: 'Weather App - Project',
 		skills: ['React.js'],
 		href: '/Projects/5',
+		hrefCode: 'https://github.com/yarinmatmoni/weather_app',
+		hrefDemo: '',
 		backgroundImage: '/images/weatherApp.png',
 		overView:
 			'Using the weather app, the user can type in a location and get the current weather forecast, a forecast for the next five hours, and a daily forecast that includes temperature range, sunset, sunrise, etc. The information is received by API.',
@@ -160,6 +170,8 @@ export const projects = [
 		alt: 'Colors - Project',
 		skills: ['Html', 'Css', 'JavaScript'],
 		href: '/Projects/6',
+		hrefCode: 'https://github.com/yarinmatmoni/Coloors',
+		hrefDemo: 'https://yarinmatmoni.github.io/Colors/',
 		backgroundImage: '/images/colors.png',
 		overView:
 			'The Colors website allows the user to choose a color palette. The user can change the hue, brightness and saturation for each color. Additionally, the user can save a color palette by using local storage.',
