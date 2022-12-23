@@ -3,17 +3,17 @@ export const mainSection =
 
 export const iconsMainSection = [
 	{
-		src: 'portfolio-website/icons/linkedin_icon.svg',
+		src: '/icons/linkedin_icon.svg',
 		alt: 'Linkedin',
 		href: 'https://www.linkedin.com/in/yarin-matmoni/',
 	},
 	{
-		src: 'portfolio-website/icons/github_icon.svg',
+		src: '/icons/github_icon.svg',
 		alt: 'Github',
 		href: 'https://github.com/yarinmatmoni',
 	},
 	{
-		src: 'portfolio-website/icons/mail_icon.svg',
+		src: '/icons/mail_icon.svg',
 		alt: 'Email',
 		href: 'https://mail.google.com/mail/?view=cm&fs=1&to=yarinmatmoni@gmail.com',
 	},
