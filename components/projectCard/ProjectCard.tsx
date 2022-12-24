@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './ProjectCard.module.scss';
-import weatherApp from 'public/images/weatherApp.png'
-import parentalGuidance from 'public/images/parentalguidance.png'
-import perfectFit from 'public/images/perfectfit.png'
-import musicPlayer from 'public/images/musicplayer.png'
+import weatherApp from 'public/images/weather-app.png'
+import parentalGuidance from 'public/images/parental-guidance.png'
+import perfectFit from 'public/images/perfect-fit.png'
+import musicPlayer from 'public/images/music-player.png'
 import colors from 'public/images/colors.png'
-import capturePortfolio from 'public/images/capturePortfolio.png'
+import capturePortfolio from 'public/images/capture-portfolio.png'
 
 
 const images: any = {
