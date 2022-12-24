@@ -2,21 +2,21 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './ProjectCard.module.scss';
-import weatherApp from 'public/images/weather-app.png'
-import parentalGuidance from 'public/images/parental-guidance.png'
-import perfectFit from 'public/images/perfect-fit.png'
-import musicPlayer from 'public/images/music-player.png'
+import weather from 'public/images/weather.png'
+import parental from 'public/images/parental.png'
+import fit from 'public/images/fit.png'
+import music from 'public/images/music.png'
 import colors from 'public/images/colors.png'
-import capturePortfolio from 'public/images/capture-portfolio.png'
+import portfolio from 'public/images/portfolio.png'
 
 
 const images: any = {
-    weatherApp,
+    weather,
+    parental,
+    fit,
+    music,
     colors,
-    capturePortfolio,
-    musicPlayer,
-    parentalGuidance,
-    perfectFit,
+    portfolio,
 };
 
 const getImageByKey = (key: string) => {
