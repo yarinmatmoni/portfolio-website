@@ -2,6 +2,26 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './ProjectCard.module.scss';
+import weatherApp from 'public/images/weatherApp.png'
+import parentalGuidance from 'public/images/parentalguidance.png'
+import perfectFit from 'public/images/perfectfit.png'
+import musicPlayer from 'public/images/musicplayer.png'
+import colors from 'public/images/colors.png'
+import capturePortfolio from 'public/images/capturePortfolio.png'
+
+
+const images: any = {
+    weatherApp,
+    colors,
+    capturePortfolio,
+    musicPlayer,
+    parentalGuidance,
+    perfectFit,
+};
+
+const getImageByKey = (key: string) => {
+    return images[key]
+}
 
 function ProjectCard({ name, src, alt, skills, href }: { name: string, src: string, alt: string, skills: string[], href: string }) {
     const [hover, setHover] = useState(false);
@@ -10,11 +30,9 @@ function ProjectCard({ name, src, alt, skills, href }: { name: string, src: stri
         setHover(!hover);
     }
 
-    const imageSrc = require('public/images/colors.png')
-
     return (
         <div className={styles.card}>
-            <Image src={imageSrc} alt={alt} height='210' width='420'/>
+            <Image src={getImageByKey(src)} alt={alt} height='210' width='420'/>
             <div className={styles.details} onMouseLeave={handleHover} onMouseEnter={handleHover} data-hover={hover}>
                 <p className={styles.name}>{name}</p>
                 <p className={styles.skills}>{skills.map((skill) => `${skill} `)}</p>
