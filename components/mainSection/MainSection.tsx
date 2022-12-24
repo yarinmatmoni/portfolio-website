@@ -20,7 +20,7 @@ function MainSection() {
                         {iconsMainSection.map((icon, index) => (
                             <div key={`${index}_${icon.alt}`} className={style.roundContainer}>
                                 <a href={icon.href} target='_blank' rel="noreferrer">
-                                    <Image src={icon.src} alt={icon.alt} height="30" width="30"></Image>
+                                    <Image src={require(`public/icons/${icon.src}`)} height="30" width="30" alt={icon.alt}></Image>
                                 </a>
                             </div>
                         ))}
