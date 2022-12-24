@@ -10,7 +10,7 @@ function ProjectCard({ name, src, alt, skills, href }: { name: string, src: stri
         setHover(!hover);
     }
 
-    const imageSrc = `public/images/${src}?1234`;
+    const imageSrc = `${src}?1234`;
 
     return (
         <div className={styles.card}>
