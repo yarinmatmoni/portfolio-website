@@ -13,7 +13,7 @@ function AboutSection() {
                     <p className={style.aboutMe}>{aboutMe}</p>
                 </div>
                 <div className={style.image}>
-                    <Image src='/images/laptop.jpg' height='260' width='330' alt='laptop'></Image>
+                    <Image src='/images/laptop.jpg' fill alt='laptop'></Image>
                 </div>
             </div>
         </div>
