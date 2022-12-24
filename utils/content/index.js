@@ -89,7 +89,7 @@ export const projects = [
 	{
 		id: '1',
 		name: 'Parental Guidance',
-		src: '/images/parentalGuidance.png',
+		src: 'public/images/parentalGuidance.png',
 		alt: 'Parental Guidance - Project',
 		skills: ['Next.js', 'TypeScript'],
 		href: '/Projects/1',
@@ -103,7 +103,7 @@ export const projects = [
 	{
 		id: '2',
 		name: 'PerfectFit',
-		src: '/images/perfectFit.png',
+		src: 'public/images/perfectFit.png',
 		alt: 'PerfectFit - Project',
 		skills: ['React.js', 'Node.js', 'MongoDB'],
 		href: '/Projects/2',
@@ -124,7 +124,7 @@ export const projects = [
 	{
 		id: '3',
 		name: 'Music Player',
-		src: '/images/musicPlayer.png',
+		src: 'public/images/musicPlayer.png',
 		alt: 'Music Player - Project',
 		skills: ['React.js'],
 		href: '/Projects/3',
@@ -138,7 +138,7 @@ export const projects = [
 	{
 		id: '4',
 		name: 'Capture Portfolio',
-		src: '/images/capturePortfolio.png',
+		src: 'public/images/capturePortfolio.png',
 		alt: 'Capture Portfolio - Project',
 		skills: ['React.js'],
 		href: '/Projects/4',
@@ -152,7 +152,7 @@ export const projects = [
 	{
 		id: '5',
 		name: 'Weather App',
-		src: '/images/weatherApp.png',
+		src: 'public/images/weatherApp.png',
 		alt: 'Weather App - Project',
 		skills: ['React.js'],
 		href: '/Projects/5',
@@ -166,7 +166,7 @@ export const projects = [
 	{
 		id: '6',
 		name: 'Colors',
-		src: '/images/colors.png',
+		src: 'public/images/colors.png',
 		alt: 'Colors - Project',
 		skills: ['Html', 'Css', 'JavaScript'],
 		href: '/Projects/6',
