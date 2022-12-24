@@ -7,7 +7,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <Head>
-        <html lang="en" />
         <link rel="shortcut icon" href="/icons/developer_icon.svg" />
       </Head>
       < Component {...pageProps} />

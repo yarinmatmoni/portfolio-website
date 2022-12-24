@@ -12,7 +12,6 @@ export default function Home() {
       <Head>
         <title>Yarin Matmoni - Portfolio</title>
         <meta name="keywords" content="Yarin Matmoni , portfolio"></meta>
-        <meta name="description" content="Yarin Matmoni - Portfolio"></meta>
         <meta name="author" content="Yarin Matmoni"></meta>
       </Head>
       <MainSection />
