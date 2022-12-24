@@ -8,7 +8,6 @@ export type ProjectType = {
 		href: string;
 		hrefCode: string;
 		hrefDemo: string;
-		backgroundImage: string;
 		overView: string;
 		technologies: string[];
 	};

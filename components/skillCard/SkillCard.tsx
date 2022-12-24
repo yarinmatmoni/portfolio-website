@@ -6,7 +6,7 @@ function SkillCard({ name, src, alt, color }: { name: string, src: string, alt: 
     return (
         <div className={style.cardContainer} style={{ boxShadow: `0px 5px 5px 2px ${color}40` }}>
             <p>{name}</p>
-            <Image src={src} height="80" width="80" alt={alt}></Image>
+            <Image src={require(`public/icons/${src}`)} height="80" width="80" alt={alt}></Image>
         </div>
     )
 }

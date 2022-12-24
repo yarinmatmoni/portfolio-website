@@ -6,7 +6,7 @@ function ImageSection({ src, name, skills }: { src: string, name: string, skills
     return (
         <div>
             <div className={style.imageContainer}>
-                <Image src={src} fill alt='Project Image'></Image>
+                <Image src={require(`public/images/${src}`)} fill alt="Project Image"></Image>
                 <div className={style.infoContainer}>
                     <div className={style.info}>
                         <h1>{name}</h1>
