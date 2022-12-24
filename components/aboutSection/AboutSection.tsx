@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { aboutMe } from '../../utils/content/index';
+import laptopImage from 'public/images/laptop.jpg';
 import style from './AboutSection.module.scss';
 
 function AboutSection() {
@@ -13,7 +14,7 @@ function AboutSection() {
                     <p className={style.aboutMe}>{aboutMe}</p>
                 </div>
                 <div className={style.image}>
-                    <Image src='/images/laptop.jpg' fill alt='laptop'></Image>
+                    <Image src={laptopImage} fill alt='laptop'></Image>
                 </div>
             </div>
         </div>

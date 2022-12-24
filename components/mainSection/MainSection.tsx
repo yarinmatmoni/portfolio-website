@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import { mainSection, iconsMainSection } from '../../utils/content/index';
+import programmingSvg from 'public/svg/programming-animate.svg';
+import cvSvg from 'public/icons/cv_icon.svg';
 import style from './MainSection.module.scss';
 
 function MainSection() {
@@ -8,7 +10,7 @@ function MainSection() {
         <div className='section'>
             <div className={style.container}>
                 <div className={style.top}>
-                    <Image src="/svg/programming-animate.svg" height="300" width="300" alt="Code Image"></Image>
+                    <Image src={programmingSvg} height="300" width="300" alt="Code Image"></Image>
                     <h1>Yarin Matmoni</h1>
                     <p>Full Stack Developer</p>
                 </div>
@@ -24,7 +26,7 @@ function MainSection() {
                         ))}
                         <div className={style.roundContainer}>
                             <a href="./files/Yarin_Matmoni_CV.pdf" download>
-                                <Image src={'/icons/cv_icon.svg'} alt='Yarin_Matmoni_CV' height="30" width="30"></Image>
+                                <Image src={cvSvg} alt='Yarin_Matmoni_CV' height="30" width="30"></Image>
                             </a>
                         </div>
                     </div>
