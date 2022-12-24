@@ -59,13 +59,13 @@ function ContactSection() {
                         <form method="post" ref={form} onSubmit={handleOnSubmit}>
                             {contactForm.map((item) => (
                                 <div key={item.name} className={style.formItem}>
-                                    <label>{item.title}</label>
-                                    <input type={item.type} name={item.name} required></input>
+                                    <label htmlFor={item.name}>{item.title}</label>
+                                    <input id={item.name} type={item.type} name={item.name} required></input>
                                 </div>
                             ))}
                             <div className={style.formItem}>
-                                <label>Message</label>
-                                <textarea name='message' required></textarea>
+                                <label htmlFor='message'>Message</label>
+                                <textarea id="message" name='message' required></textarea>
                             </div>
                             <button type="submit" data-sent={isSent}>Send Message</button>
                         </form>
