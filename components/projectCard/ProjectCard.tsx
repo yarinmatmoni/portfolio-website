@@ -10,9 +10,11 @@ function ProjectCard({ name, src, alt, skills, href }: { name: string, src: stri
         setHover(!hover);
     }
 
+    const imageSrc = `public/images/${src}?1234`;
+
     return (
         <div className={styles.card}>
-            <Image src={`public/images/${src}?1234`} alt={alt} height='210' width='420'/>
+            <Image src={`${require(imageSrc)}`} alt={alt} height='210' width='420'/>
             <div className={styles.details} onMouseLeave={handleHover} onMouseEnter={handleHover} data-hover={hover}>
                 <p className={styles.name}>{name}</p>
                 <p className={styles.skills}>{skills.map((skill) => `${skill} `)}</p>
