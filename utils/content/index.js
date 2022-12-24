@@ -166,7 +166,7 @@ export const projects = [
 	{
 		id: '6',
 		name: 'Colors',
-		src: 'public/icons/developer_icon.svg',
+		src: 'colors.png',
 		alt: 'Colors - Project',
 		skills: ['Html', 'Css', 'JavaScript'],
 		href: '/Projects/6',

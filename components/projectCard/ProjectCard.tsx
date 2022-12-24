@@ -12,7 +12,7 @@ function ProjectCard({ name, src, alt, skills, href }: { name: string, src: stri
 
     return (
         <div className={styles.card}>
-            <Image src={src} alt={alt} height='210' width='420'></Image>
+            <Image src={`/images/${src}?123`} alt={alt} height='210' width='420'/>
             <div className={styles.details} onMouseLeave={handleHover} onMouseEnter={handleHover} data-hover={hover}>
                 <p className={styles.name}>{name}</p>
                 <p className={styles.skills}>{skills.map((skill) => `${skill} `)}</p>
