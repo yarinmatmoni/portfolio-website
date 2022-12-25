@@ -101,7 +101,7 @@ export const projects = [
 	},
 	{
 		id: '2',
-		name: 'PerfectFit.png',
+		name: 'PerfectFit',
 		src: 'fit.png',
 		alt: 'PerfectFit - Project',
 		skills: ['React.js', 'Node.js', 'MongoDB'],
