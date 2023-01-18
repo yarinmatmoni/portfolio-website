@@ -25,7 +25,7 @@ function MainSection() {
                             </div>
                         ))}
                         <div className={style.roundContainer}>
-                            <a href="../files/Yarin_Matmoni_CV.pdf" download>
+                            <a href="/files/Yarin_Matmoni_CV.pdf" download>
                                 <Image src={cvSvg} alt='Yarin_Matmoni_CV' height="30" width="30"></Image>
                             </a>
                         </div>
