@@ -72,6 +72,12 @@ export const skills = [
 		color: '#439934',
 	},
 	{
+		name: 'Angular',
+		src: 'angularIcon.svg',
+		alt: 'Angular Icon',
+		color: '#c3002f',
+	},
+	{
 		name: 'Java',
 		src: 'java_icon.svg',
 		alt: 'Java icon',
@@ -110,14 +116,7 @@ export const projects = [
 		hrefDemo: '',
 		overView:
 			'PerfectFit is a dashboard website for a fashion app that allows the manager to get many statistics about his app, for example: who are the top users, connected profiles, the total number of profiles in the app and more. Additionally, the manager can see a change in trends compared to last week. The administrator has control over the categories and subcategories that appear in the application and can add, delete or edit any of them.',
-		technologies: [
-			'React.js',
-			'Node.js',
-			'MongoDB',
-			'Recharts',
-			'Local Storage',
-			'Style-Component',
-		],
+		technologies: ['React.js', 'Node.js', 'MongoDB', 'Recharts', 'Local Storage', 'Style-Component'],
 	},
 	{
 		id: '3',
@@ -173,5 +172,4 @@ export const projects = [
 	},
 ];
 
-export const contact =
-	"I am available for full time position. Contact me and let's talk";
+export const contact = "I am available for full time position. Contact me and let's talk";
